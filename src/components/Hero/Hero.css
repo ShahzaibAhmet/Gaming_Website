@@ -59,10 +59,13 @@
 .hero-play{
     display: flex;
     align-items: center;
-    gap: 30px
+    gap: 20px
 }
 .hero-play p{
     color: white;
-    font-size: 19px;
+    font-size: 20px;
 
+}
+.btn{
+    width: 65px;
 }

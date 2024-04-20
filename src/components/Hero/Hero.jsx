@@ -22,7 +22,7 @@ const Hero = (props) => {
           <li onClick={()=> props.setHeroCount(2)} className={props.HeroCount===2? "hero-dot orange": "hero-dot" }></li>
         </ul>
         <div className="hero-play">
-        <img onClick={()=> props.SetPlayStatus(!props.playStatus)} src={props.playStatus? pause: play}/>
+        <img className='btn' onClick={()=> props.SetPlayStatus(!props.playStatus)} src={props.playStatus? pause: play}/>
         <p>See the Video</p>
       </div>
       </div>
