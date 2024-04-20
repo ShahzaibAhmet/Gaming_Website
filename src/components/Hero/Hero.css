@@ -7,8 +7,8 @@
     color: rgb(255, 255, 255);
     font-size: 105px;
     font-weight: 500;
-    line-height: 90px;
-    margin-bottom: 120px ;
+    line-height: 120px;
+    margin-bottom: 110px ;
 
 }
 
@@ -33,7 +33,7 @@
 }
 
 .her_dot_play {
-    margin-top: 20px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -55,4 +55,14 @@
 }
 .orange{
     background: #ff5858;
+}
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+.hero-play p{
+    color: white;
+    font-size: 19px;
+
 }

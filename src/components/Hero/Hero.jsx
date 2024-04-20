@@ -10,7 +10,6 @@ const Hero = (props) => {
       <div className="HeroText">
         <p>{props.HeroData.text1}</p>
         <p>{props.HeroData.text2}</p>
-        {/* <p>{props.HeroData.text3}</p> */}
       </div>
       <div className="Hero-explore">
         <p>Explore the features</p>
