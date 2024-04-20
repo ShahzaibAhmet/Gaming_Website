@@ -11,13 +11,20 @@ const App = () => {
     {text1:"Indulge", text2:"your passions"},
     {text1:"Give in to", text2:"your passions"},
   ];
-const [HeroCount, setHeroCount] = useState(0);
-const [PlayStatus, setPlayStatus] = useState(false);
+const [HeroCount, setHeroCount] = useState(1);
+const [PlayStatus, setPlayStatus] = useState(1);
 
   return (
     <>
     <Background PlayStatus={PlayStatus} HeroCount={HeroCount} />
     <Navbar/>
+    <Hero 
+    SetPlayStatus={setPlayStatus}
+    HeroData={HeroData[HeroCount]}
+    HeroCount={HeroCount}
+    setHeroCount={setHeroCount}
+    playStatus={PlayStatus}
+    />
 
     </>
   )
